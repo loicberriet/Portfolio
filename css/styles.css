@@ -4508,7 +4508,31 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+.cv{
+ 
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    top: 10%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
 
+  
+}
+.cv:link, .cv:visited, .cv:focus {
+  background: rgb(24, 151, 180);
+}
+
+.cv:hover {
+  background: rgb(0, 81, 255);
+}
+
+.cv:active {
+  background: red;
+  color: white;
+}
 .card {
   position: relative;
   display: flex;
@@ -11689,8 +11713,8 @@ form .pied-formulaire button:hover {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 15rem;
+    padding-top: calc(11rem + 135px);
+    padding-bottom: -250rem;
     
   }
   .masthead .masthead-heading {
